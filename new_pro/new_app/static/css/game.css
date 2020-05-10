@@ -1,0 +1,82 @@
+.text
+{
+    position: absolute;
+    font-size: 5.6vw;
+    padding: .56vw ;
+    bottom: 50%;
+    left: 35%;
+    color: white;
+}
+.paragraph
+{
+    font-size:25px;
+    bottom:40%;
+    left:32%;
+    position: absolute;
+    color:white;
+}
+.butto
+{
+   
+    position: absolute;
+    bottom:12vw;
+    left:43.3vw;
+    
+    
+}
+button
+{
+    padding: 1.6vw;
+    padding-bottom: 2vw;
+    background-color:white;
+    width:10vw;
+    height: 30px;
+    text-align: center;
+    
+}
+.nav
+{
+    background-color:black;
+    position: absolute;
+    bottom:83%;
+    width: 94vw;
+    padding:1.12vw;
+    margin-left: .56vw;
+    
+    
+}
+.nav a
+{text-decoration:none;
+    color: white;
+text-align: left;
+margin:6vw;
+}
+.nav b{margin: 1vw;}
+.nav sup
+{
+    margin: -5vw ;
+    font-size:1.65vw;
+    font-style: oblique;
+    color:pink;
+}
+.follow
+{
+    position: absolute;
+    bottom: 94%;
+    left:85%;
+    color:yellow;
+}
+.material-icons
+{
+    position:absolute;
+    bottom: 94%;
+    left:90vw;
+    
+    
+}
+@media screen and (max-width:700px)
+{
+     .image,.text,.paragraph,.butto,.nav,.button{width:100%;}
+}
+
+   
